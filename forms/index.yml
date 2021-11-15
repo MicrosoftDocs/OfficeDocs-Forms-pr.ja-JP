@@ -1,0 +1,26 @@
+### YamlMime:Hub
+title: Microsoft Forms 管理者
+summary: Microsoft Forms を使用すると、調査、クイズ、投票、およびその他の種類のフォームを簡単に作成できます。 ほぼすべての Web ブラウザーまたはモバイル デバイスを使用して、フォームへの返信を招待したり、送信時にリアルタイムの結果を確認したり、組み込みの分析を使用して回答を評価したり、結果を Excel にエクスポートして追加の分析や採点を行ったりできます。 Forms は通常、Office 365 Education のお客様、Microsoft 365 Apps for business のお客様、および Microsoft アカウント (Hotmail、Live、または Outlook.com) をお持ちのお客様にご利用いただけます。
+brand: m365
+metadata:
+  title: Microsoft Forms 管理者
+  description: Microsoft Forms 管理者の概要
+  ms.service: Forms Admin
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 11/03/2021
+  localization_priority: Priority
+additionalContent:
+  sections:
+    - title: IT 担当者向け
+      items:
+        - title: 管理者
+          summary: Forms 管理者の設定と、組織のニーズに合わせて Forms を構成する方法の詳細
+          url: /microsoft-forms/administrator-settings-microsoft-Forms
+    - title: 他のユーザー向け
+      items:
+        - title: エンド ユーザー
+          summary: フォーム、クイズ、または投票を作成、送信、分析する
+          url: 'https://support.microsoft.com/forms'

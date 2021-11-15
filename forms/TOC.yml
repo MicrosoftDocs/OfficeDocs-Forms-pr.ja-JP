@@ -1,0 +1,14 @@
+- name: Microsoft Forms 管理者
+  href: index.yml
+- name: Microsoft Forms の管理者設定
+  href: /microsoft-forms/administrator-settings-microsoft-Forms
+- name: Microsoft Forms のセットアップ
+  href: /microsoft-forms/set-up-microsoft-forms
+- name: Microsoft Forms を有効または無効にする
+  href: /microsoft-forms/turn-off-turn-on-microsoft-forms
+- name: 管理者情報の FAQ
+  href: /microsoft-forms/admin-information
+- name: フィッシング詐欺の可能性が検出されてブロックされたフォームまたはユーザーのレビューとブロック解除
+  href: /microsoft-forms/review-unblock-forms-users-detected-blocked-potential-phishing
+- name: Microsoft Forms とユーザー アカウント
+  href: /microsoft-forms/microsoft-forms-user-accounts
