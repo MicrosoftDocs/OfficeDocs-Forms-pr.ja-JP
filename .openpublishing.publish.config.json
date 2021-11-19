@@ -4,7 +4,7 @@
       "docset_name": "Microsoft-Forms",
       "build_source_folder": "forms",
       "build_output_subfolder": "Microsoft-Forms",
-      "locale": "ja-JP",
+      "locale": "ja-jp",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -28,7 +28,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.ja-JP",
+      "url": "https://github.com/Microsoft/templates.docs.msft.ja-jp",
       "branch": "main",
       "branch_mapping": {}
     },
@@ -42,8 +42,22 @@
       }
     }
   ],
-  "branch_target_mapping": {},
+  "branch_target_mapping": {
+    "live": [
+      "Publish",
+      "Pdf"
+    ],
+    "live-sxs": [
+      "Publish",
+      "Pdf"
+    ]
+  },
   "need_generate_pdf_url_template": false,
+  "targets": {
+    "pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  },
   "docs_build_engine": {
     "name": "docfx_v3"
   }

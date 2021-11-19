@@ -24,7 +24,10 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg",
+          "**/*.pdf"
         ],
         "exclude": [
           "**/obj/**",
@@ -41,7 +44,10 @@
     "globalMetadata": {
       "breadcrumb_path": "/microsoft-forms/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "titleSuffix": "Microsoft Forms Admin",
+      "searchScope": ["Microsoft Forms Admin"],
+      "recommendations": false
     },
     "fileMetadata": {},
     "template": [],
