@@ -5,20 +5,19 @@ author: dumptruckjon
 manager: kathyl
 audience: Admin
 ms.topic: how-to
-ms.service: forms-pro
+ms.service: microsoft-365-education
 ms.localizationpriority: high
 description: Microsoft 365 管理者が組織での Microsoft Forms の使用方法を制御する方法について説明します。 また、Microsoft Forms のデータが保存されている場所など、セキュリティとコンプライアンスに関する質問に対する回答も紹介します。
-ms.openlocfilehash: abee1557f379f646b277866f32fc0640c0b643cd
-ms.sourcegitcommit: 09bdc82ce67e74495b6c58d9c842e31c17956fc3
+ms.openlocfilehash: bb0e1a6ba8e2085550eb18a8bb393b34b197fe51
+ms.sourcegitcommit: 80aa5565b4008855be844e8e5ab3f2779fba9a83
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "60951535"
+ms.lasthandoff: 01/05/2022
+ms.locfileid: "61723725"
 ---
 # <a name="set-up-microsoft-forms"></a>Microsoft Forms のセットアップ
 
-
-## <a name="overview"></a>[概要](#tab/overview)
+## <a name="overview"></a>概要
 
 Microsoft Forms を使用すると、カスタマイズされたクイズ、調査、アンケート、登録、その他のものをすばやく簡単に作成できます。 クイズやフォームを作成する場合、どの Web ブラウザー (モバイル デバイス上でも) を使用している人にも回答してもらうように招待できます。 回答が提出されたら、組み込みの分析機能を使用して応答を評価することができます。 クイズ回答などのフォーム データは、さらに分析したりランク付けしたりするために Excel にエクスポートできます。
 
@@ -29,58 +28,19 @@ Microsoft Forms を使用すると、カスタマイズされたクイズ、調�
 
 :::image type="content" source="./media/set-up-forms-team-event.png" alt-text="モバイル デバイス上でのフォームの外観のプレビュー":::
 
-## <a name="configure"></a>[構成](#tab/configure)
+## <a name="configure"></a>Configure
 
 Microsoft 365 管理者は、次のタスクを通じて組織での Microsoft Forms の使用方法を制御することができます。
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>管理タスク</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Microsoft Forms を有効または無効にする</strong></td>
-<td>既定では、Microsoft Forms は組織に対して有効になっています。 いつでも<a href="https://support.microsoft.com/office/turn-off-or-turn-on-microsoft-forms-8dcbf3ab-f2d6-459a-b8be-8d9892132a43">無効</a>にできます。</td>
-</tr>
-<tr class="even">
-<td><strong>組織内の個々のユーザーに対して Microsoft Forms を無効にする</strong></td>
-<td>Microsoft Forms を何らかの理由で無効にした場合、そのユーザーは使用できず、<strong>[Forms]</strong> タイルが Microsoft 365 アプリ起動ツールまたはホームページで非表示になります。  <a href="https://support.microsoft.com/office/turn-off-or-turn-on-microsoft-forms-8dcbf3ab-f2d6-459a-b8be-8d9892132a43">特定のユーザーに対してフォームを無効にする</a>方法をご覧ください。 </td>
-</tr>
-<tr class="odd">
-<td><strong>Microsoft Forms の Azure Active Directory の条件付きアクセスをセットアップする</strong></td>
-<td><p>Microsoft Forms の条件付きアクセス ポリシーを設定するには、「<a href="/azure/active-directory/conditional-access/">Azure AD 条件付きアクセスのドキュメント</a>」を参照し、<strong>クラウド アプリ</strong>の割り当てに <strong>Microsoft Forms</strong> を含めます。</p>
-<p><strong>注: </strong>Microsoft Forms の条件付きアクセスを設定した後も、組織内のユーザーが引き続きブロックされている場合は、条件付きアクセスで SharePoint Online と Exchange Online へのアクセスも許可されていることを確認してください。 <a href="/azure/active-directory/conditional-access/conditional-access-for-exo-and-spo">詳細情報</a> を参照してください。</p></td>
-</tr>
-<tr class="even">
-<td><strong>外部共有設定の制御、組織内のユーザーの名前の記録、フィッシングからフォームを保護する</strong></td>
-<td><p>Microsoft 365 管理センターでは、次のことを実行できます。</p>
-<ul>
-<li><p>外部ユーザーがフォームやクイズで組織内のユーザーと共同作業することを許可するかどうかを制御します。</p></li>
-<li><p>フォームに入力する組織内のユーザーの名前をキャプチャするかどうかを選択します。</p></li>
-<li><p>フォームでの自動フィッシング検出をオフまたはオンにします。</p></li>
-</ul>
-<p>これらの<a href="https://support.microsoft.com/office/administrator-settings-for-microsoft-forms-48161c55-fbae-4f37-8951-9e3befc0248b">管理設定</a>の詳細情報をご覧ください。</p></td>
-</tr>
-<tr class="odd">
-<td><strong>ユーザーがフォームを PowerPoint に挿入できるようにする</strong></td>
-<td><ol type="1">
-<li><p>Sign in to <bpt id="p1">&lt;a href="https://admin.microsoft.com/"&gt;</bpt><ph id="ph1">https://admin.microsoft.com</ph><ept id="p1">&lt;/a&gt;</ept>.</p></li>
-<li><p><strong>[設定]</strong> &gt; <strong>[設定]</strong> の順にクリックします。</p></li>
-<li><p><strong>[設定]</strong> ページで、<strong>[サービス]</strong> タブから <strong>[ユーザーが所有するアプリとサービス]</strong> をクリックします。</p></li>
-<li><p><strong>[ユーザーに Office ストアへのアクセスを許可する]</strong> のオプションをオンにして、ユーザーがフォームを PowerPoint に挿入することを許可します。</p></li>
-</ol>
-<blockquote>
-<p>変更内容が有効になるまでに数時間かかる場合があることに注意してください。 <a href="/office365/admin/manage/manage-deployment-of-add-ins>Learn more</a>.</p>
-</blockquote></td>
-</tr>
-</tbody>
-</table>
+|管理タスク   |説明   |
+|----------|-----------|
+|**Microsoft Forms を有効または無効にする**|既定では、Microsoft Forms は組織に対して有効になっています。 いつでも[無効](turn-off-turn-on-microsoft-forms.md)にできます。|
+|**組織内の個々のユーザーに対して Microsoft Forms を無効にする**|Microsoft Forms を何らかの理由で無効にした場合、そのユーザーは使用できず、*[Forms]* タイルが Microsoft 365 アプリ起動ツールまたはホームページで非表示になります。 [特定のユーザーに対してフォームを無効にする](turn-off-turn-on-microsoft-forms.md)方法をご覧ください。|
+|**Microsoft Forms の Azure Active Directory の条件付きアクセスをセットアップする**|Microsoft Forms の条件付きアクセス ポリシーを設定するには、「[Azure AD 条件付きアクセスのドキュメント](/azure/active-directory/conditional-access)」を参照し、*クラウド アプリ*の割り当てに *Microsoft Forms* を含めます。 <br/><br/> **注: **Microsoft Forms の条件付きアクセスを設定した後も、組織内のユーザーが引き続きブロックされている場合は、条件付きアクセスで SharePoint Online と Exchange Online へのアクセスも許可されていることを確認してください。 [詳細情報](/azure/active-directory/conditional-access/block-legacy-authentication) を参照してください。|
+|**外部共有設定の制御、組織内のユーザーの名前の記録、フィッシングからフォームを保護する**|Microsoft 365 管理センターでは、次のことを実行できます。 <ul><li>外部ユーザーがフォームやクイズで組織内のユーザーと共同作業することを許可するかどうかを制御します。</li><li>フォームに入力する組織内のユーザーの名前をキャプチャするかどうかを選択します。</li><li>フォームでの自動フィッシング検出をオフまたはオンにします。</li></ul><br/>これらの[管理設定](administrator-settings-microsoft-forms.md)の詳細情報をご覧ください。|
+|**ユーザーがフォームを PowerPoint に挿入できるようにする**|<ol><li>https://admin.microsoft.comにサインインします。</li><li>**[設定]** をクリックします > **[設定]**。</li><li>**[設定]** ページで、**[サービス]** タブから **[ユーザーが所有するアプリとサービス]** をクリックします。</li><li>**[ユーザーに Office ストアへのアクセスを許可する]** のオプションをオンにして、ユーザーがフォームを PowerPoint に挿入することを許可します。</li></ol><br/>変更内容が有効になるまでに数時間かかる場合があることに注意してください。 [詳細情報](/microsoft-365/admin/manage/manage-deployment-of-add-ins)|
 
-
-## <a name="security--compliance"></a>[セキュリティとコンプライアンス](#tab/security)
+## <a name="security--compliance"></a>セキュリティとコンプライアンス
 
 このセクションは、コンテンツのセキュリティとデータ使用について満たす必要がある法律、規制、技術の標準が業務にある場合に利用します。
 
@@ -96,11 +56,11 @@ Microsoft Forms のデータは、米国内およびヨーロッパに配置さ�
 
 Microsoft Forms は、[FERPA](https://www.microsoft.com/trustcenter/compliance/ferpa) と [BAA の保護基準](https://www.microsoft.com/TrustCenter/Compliance/HIPAA)を満たしています。
 
-*ユーザーが組織を離れた後でも、ユーザー アカウントに保存されるユーザー数とデータ量に制限はありますか?*
+**ユーザーが組織を離れた後でも、ユーザー アカウントに保存されるユーザー数とデータ量に制限はありますか?**
 
 現時点では、アカウントのプロビジョニングが組織のオンライン サービス契約の範囲内にある限り、データが保持されるユーザー数に制限はありません。 また、ユーザー アカウントに保存されるデータ量に制限はありません。
 
-*フォームの元の所有者は組織に所属していないか、Microsoft Forms ライセンスが削除されています。作成したフォームに関連付けられているデータはどうなりますか?*
+**フォームの元の所有者は組織に所属していないか、Microsoft Forms ライセンスが削除されています。作成したフォームに関連付けられているデータはどうなりますか?**
 
 アカウント関連のデータはすべて、テナント (Azure AD) からユーザー アカウントが削除されてから 30 日後に削除されます。
 
@@ -114,7 +74,7 @@ Microsoft Forms は、アンケート、クイズ、投票を簡単に作成で�
 
 Microsoft アカウント (Hotmail、Live、Outlook.com) をお持ちであれば、誰でも Microsoft Forms を無料でご利用いただけます。 Office 365 Education および Microsoft 365 Apps for business の次のお客様は、Microsoft フォームも使用できます。
 
-Office 365 Education
+**Office 365 Education**
 
   - Office 365 A1 Plus
 
@@ -122,7 +82,7 @@ Office 365 Education
 
   - 退職前に E3 Office 365 Educationを購入した既存のお客様
 
-Microsoft 365 Apps for business
+**Microsoft 365 Apps for business**
 
   - Microsoft 365 Business Basic
 
@@ -164,8 +124,8 @@ Microsoft InfoPath は、SharePoint リスト、フロー、および PowerApps 
 
 **製品のバグや機能リクエストなどのフィードバックはどこから送信できますか?**
 
-ご意見をお聞かせください。\! Microsoft Forms に関するフィードバックを送信するには、フォームの右上隅に移動して **[その他のフォームの設定]** ![[その他のオプション ボタン]](./media/image2.png) \> **[フィードバック]** の順に選択します。
+ぜひご意見をお寄せください。 Microsoft Forms に関するフィードバックを送信するには、フォームの右上隅に移動して **[その他のフォームの設定]** ![[その他のオプション ボタン]](./media/image2.png)  >  **[フィードバック]** の順に選択します。
 
->[!Note]
->詳細については、「[Microsoft Forms についてよく寄せられる質問](https://support.microsoft.com/office/frequently-asked-questions-about-microsoft-forms-495c4242-6102-40a0-add8-df05ed6af61c)」を参照してください。
+> [!Note]
+> 詳細については、「[Microsoft Forms についてよく寄せられる質問](https://support.microsoft.com/office/frequently-asked-questions-about-microsoft-forms-495c4242-6102-40a0-add8-df05ed6af61c)」を参照してください。
 
